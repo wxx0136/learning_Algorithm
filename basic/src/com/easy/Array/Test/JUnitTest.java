@@ -1,11 +1,9 @@
-package com.company.easy.Array.Test;
+package com.easy.Array.Test;
 
-import com.company.easy.Array.MaxProfit;
-import com.company.easy.Array.RemoveDuplicates;
-import com.company.easy.Array.RotateArray;
+import com.easy.Array.MaxProfit;
+import com.easy.Array.RemoveDuplicates;
+import com.easy.Array.RotateArray;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 public class JUnitTest {
 

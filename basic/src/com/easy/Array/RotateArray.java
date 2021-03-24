@@ -1,4 +1,4 @@
-package com.company.easy.Array;
+package com.easy.Array;
 
 /*
 测试用例：new int[]{1, 2, 3, 4, 5, 6, 7}, 3
