@@ -20,7 +20,7 @@ public class JUnitTest {
     public void MaxProfit_Test() {
         //https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/
         MaxProfit maxProfit = new MaxProfit();
-        System.out.println(maxProfit.maxProfit(new int[]{7, 6, 4, 3, 1}));
+        System.out.println(maxProfit.maxProfit(new int[]{3, 2, 5, 8, 1, 9}));
     }
 
     @Test
