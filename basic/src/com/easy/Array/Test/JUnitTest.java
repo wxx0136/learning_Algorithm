@@ -51,4 +51,11 @@ public class JUnitTest {
         System.out.println(Arrays.toString(intersectionOfTwoArrays2.intersect(nums1, nums2)));
 //        System.out.println(Arrays.toString(intersectionOfTwoArrays2.intersect_sorted(nums1, nums2)));
     }
+
+    @Test
+    public void plusOne_test() {
+        PlusOne plusOne = new PlusOne();
+        int[] nums = new int[]{9, 9, 9};
+        System.out.println(Arrays.toString(plusOne.plusOne(nums)));
+    }
 }

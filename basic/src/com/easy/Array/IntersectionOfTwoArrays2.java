@@ -42,7 +42,10 @@ public class IntersectionOfTwoArrays2 {
         /*
         1.将两个输入数组排序，此时产生 nlogN
         2.一个循环循环两个数组
-        3.因为已经排序，所以直接通过大小判断是否重复
+        3.因为已经排序，所以直接通过比大小判断是否交集
+        4.哪个数组值小，就挪一个，继续比
+        5.一直比到其中一个数组到头。
+        6.ArrayList转int数组，返回
          */
         Arrays.sort(nums1);
         Arrays.sort(nums2);
