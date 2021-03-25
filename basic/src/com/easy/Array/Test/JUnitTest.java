@@ -59,4 +59,48 @@ public class JUnitTest {
         int[] nums = new int[]{0, 1, 0, 3, 12};
         moveZeros.moveZeroes(nums);
     }
+
+    @Test
+    public void twoSum_test() {
+        TwoSum twoSum = new TwoSum();
+        int[] nums = new int[]{2, 7, 11, 15};
+        int target = 9;
+        int[] result = twoSum.twoSum(nums, target);
+        System.out.println(Arrays.toString(result));
+        System.out.println(nums[result[0]] + " + " + nums[result[1]] + " = " + target);
+    }
+
+    @Test
+    public void validSudoku_test() {
+        ValidSudoku validSudoku = new ValidSudoku();
+        char[][] board = new char[][]{
+                {'5', '3', '.', '.', '7', '.', '.', '.', '.'},
+                {'6', '.', '.', '1', '9', '5', '.', '.', '.'},
+                {'.', '9', '8', '.', '.', '.', '.', '6', '.'},
+                {'8', '.', '.', '.', '6', '.', '.', '.', '3'},
+                {'4', '.', '.', '8', '.', '3', '.', '.', '1'},
+                {'7', '.', '.', '.', '2', '.', '.', '.', '6'},
+                {'.', '6', '.', '.', '.', '.', '2', '8', '.'},
+                {'.', '.', '.', '4', '1', '9', '.', '.', '5'},
+                {'.', '.', '.', '.', '8', '.', '.', '7', '9'},
+        };
+        System.out.println(board[0].length);
+        System.out.println(board.length);
+        System.out.println(validSudoku.isValidSudoku(board));
+    }
+
+    @Test
+    public void rotateImage_test() {
+        RotateImage rotateImage = new RotateImage();
+        int[][] matrix = new int[][]{
+                {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12},
+                {13, 14, 15, 16}
+        };
+        System.out.println(Arrays.deepToString(matrix));
+        rotateImage.rotate(matrix);
+        System.out.println(Arrays.deepToString(matrix));
+    }
+
 }
