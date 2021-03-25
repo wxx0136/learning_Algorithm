@@ -1,7 +1,20 @@
 package com.easy.Array;
 
-import java.util.Arrays;
+//https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/770/
 
+/*
+1  2  3
+4  5  6
+7  8  9
+先把矩阵的行都变成列 通过 matrix[i][j] = matrix[j][i]
+1  4  7
+2  5  8
+3  6  9
+再把每行的首尾以此对调，通过 matrix[i][j] = matrix[i][row - 1 - j];
+7  4  1
+8  5  2
+9  6  3
+ */
 public class RotateImage {
     public void rotate(int[][] matrix) {
         int row = matrix.length;
