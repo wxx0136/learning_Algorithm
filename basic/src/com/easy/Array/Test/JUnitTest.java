@@ -58,4 +58,11 @@ public class JUnitTest {
         int[] nums = new int[]{9, 9, 9};
         System.out.println(Arrays.toString(plusOne.plusOne(nums)));
     }
+
+    @Test
+    public void moveZeros_test() {
+        MoveZeros moveZeros = new MoveZeros();
+        int[] nums = new int[]{0, 1, 0, 3, 12};
+        moveZeros.moveZeroes(nums);
+    }
 }
