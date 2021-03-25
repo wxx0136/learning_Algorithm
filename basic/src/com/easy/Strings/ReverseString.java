@@ -3,7 +3,7 @@ package com.easy.Strings;
 //https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/879/
 
 /*
-1.字符数组整除2，首尾字符交换赋值
+1.字符数组整除2，首尾字符以此交换赋值
  */
 
 public class ReverseString {
