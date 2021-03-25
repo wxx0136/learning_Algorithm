@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
+//https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/674/
+
 public class IntersectionOfTwoArrays2 {
 
     public int[] intersect(int[] nums1, int[] nums2) {

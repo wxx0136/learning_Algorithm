@@ -1,5 +1,7 @@
 package com.easy.Array;
 
+//https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/
+
 /*
 测试用例：new int[]{3, 2, 5, 8, 1, 9})
 1.找到买入点最小值

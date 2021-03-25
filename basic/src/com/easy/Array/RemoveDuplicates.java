@@ -1,5 +1,7 @@
 package com.easy.Array;
 
+//https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/
+
 /*
 测试用例：new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
 ++i是先自增，再返回值

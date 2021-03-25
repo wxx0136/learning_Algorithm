@@ -1,9 +1,10 @@
 package com.easy.Array;
 
 import java.util.Arrays;
-import java.util.Dictionary;
 import java.util.HashSet;
 import java.util.Set;
+
+//https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/578/
 
 /*
 测试用例:[1,2,3,1]

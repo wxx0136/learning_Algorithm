@@ -1,5 +1,7 @@
 package com.easy.Array;
 
+//https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/646/
+
 /*
 测试用例：new int[]{1, 2, 3, 4, 5, 6, 7}, 3
 1.以K为分界点，将数组分为两个部分
